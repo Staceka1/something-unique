@@ -1,4 +1,4 @@
-/* Font Selected - Google Font Bree Serif*/
+/* Fonts Selected - Google Font Bree Serif & Fortuna Dot*/
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dosis:wght@200&family=Petit+Formal+Script&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/fortuna-dot');
 
@@ -7,6 +7,7 @@
 /* ---------------------------------------------*/
 
 
+  
 /* Main Body Element*/
 * { box-sizing: border-box;
     margin: 0;
@@ -14,9 +15,15 @@
     background-color: #2E3138;
 }
 /* Headings within Body */
-.title1, .title2, .title3, .title4 {
+.title1, .title2, .title3 {
     font-family: 'fortuna dot', sans-serif;
     font-size: 40px;
+    font-weight: 400;
+    color: #954D97;
+}
+.title4 {
+    font-size: 30px;
+    font-family: 'fortuna dot', sans-serif;
     font-weight: 400;
     color: #954D97;
 }
@@ -42,7 +49,10 @@ section {
     padding: 20px 20px 20px 20px;
     margin: 10px;
     text-align: left;
+    text-decoration: none;
 }
+
+
 
 /* ---------------------------------------------*/
 
@@ -90,11 +100,10 @@ header {
 
 /* ---------------------------------------------*/
 
-
-
+ /* Stacey Image */
 
 img {
-    border-radius: 150px;
+    border-radius: 50px;
     align-items: right;
     max-width: 100%;
     max-height:100%;
@@ -102,16 +111,26 @@ img {
 
 
 
-.container {
-    display: flex;
-    align-items: right;
-    justify-content: right; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-}
-
-
-.emaillink {
+.contact {
     text-decoration: none;
     color: white;
+   
 }
+.contact :hover {
+    color: #B393B4;
+    text-decoration: none;
+}
+
+aside {
+    flex: 30%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
