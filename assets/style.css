@@ -1,0 +1,84 @@
+/* Font Selected - Google Font Bree Serif*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dosis:wght@200&family=Petit+Formal+Script&family=Roboto:wght@300&display=swap');
+
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DADCE0;
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+    font-weight:400;
+    color: #000000;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: #DADCE0;
+}
+
+.navigation {
+    display: flex;
+    justify-content:space-between;
+   
+}
+.navigationLink {
+    padding-left: 10px;
+    background-color: turquoise;
+    padding: 20px 10px;
+
+}
+
+.navigationText:hover {
+    background-color: blue;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    /* padding: 20px; */
+    align-items: center;
+    background-color: turquoise;
+    padding: 0 30px;
+
+}
+
+.Stacey { 
+    color: purple;
+    background-color: turquoise;
+    padding: 20px 0px;
+
+}
+section {
+    font-size: 16px;
+    font-family: serif;
+    padding: 20px 20px 20px 20px;
+    margin: 10px;
+
+}
+
+/* Navigation Bar - unordered list items*/
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    
+
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: purple;
+    color: white;
+    height: 60px;
+    text-decoration: none;
+  }
+/*---------------------------------------------------*/ 
+
+
+.line {
+    height: 10px;
+    width: 100%;
+    background-color: blue;
+}
